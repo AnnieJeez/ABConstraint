@@ -45,8 +45,8 @@ function setup(){
 }
 
 function draw(){
-    // background(backgroundImg);
-    background("white");
+    background(backgroundImg);
+    // background("white");
     Engine.update(engine);
     strokeWeight(4);
     box1.display();
